@@ -95,7 +95,7 @@ public class ConnectFour {
    //switch players each turn
    public static int switchPlayer(int playerNumber)
    {
-      int newPlayerNumber = 0;
+      int newPlayerNumber = 0;    /* used if it is the beginning of a new game*/
       if (playerNumber == 0){
          newPlayerNumber = 1;
       }
@@ -148,7 +148,7 @@ public class ConnectFour {
        }
        //when there is a winner
        if (winner == true) {
-          System.out.println("Player " + player + " won the game!");
+          System.out.println("Player " + player + " won the game!");   /*prints specific winner of the game */
        }
        //when there is a tie
        if (tie == true){
